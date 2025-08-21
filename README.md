@@ -103,9 +103,11 @@ In the Options tab you can turn on or off specific features in the application, 
 
 ### Sundering charms
 
-If you try to use an existing `grail.json`, you need to edit the file first for sundering charms to work.
+If you try to use an existing `grail.json`, first you need to edit the file for sundering charms to work.
 
 Close the application, then open `grail.json`, and find the following block:
+
+<details>
 
 ```json
   {
@@ -131,7 +133,11 @@ Close the application, then open `grail.json`, and find the following block:
   },
 ```
 
+</details>
+
 After this, insert the following:
+
+<details>
 
 ```json
   {
@@ -262,11 +268,13 @@ After this, insert the following:
   },
 ```
 
+</details>
+
 Save your `grail.json`, and start the app again. The charms should appear in the Grail controller:
 
 ![sundering charms](https://github.com/noobient/MF_run_counter/blob/master/media/sundering.png?raw=true)
 
-You have to do this only once, and it should work from then.
+You have to do this only once, and it should work afterwards.
 
 ## Building
 
