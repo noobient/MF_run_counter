@@ -270,7 +270,7 @@ After this, insert the following:
 
 </details>
 
-Save your `grail.json`, and start the app again. The charms should appear in the Grail controller:
+Save your `grail.json`, and start the app again. Open _Grail / Grail controller_, navigate to _Unique Other_, check one of the sundering charms, then close and re-open the Grail controller again. If you've done everything right, the checked charm should remain checked:
 
 ![sundering charms](https://github.com/noobient/MF_run_counter/blob/master/media/sundering.png?raw=true)
 
