@@ -282,9 +282,13 @@ Download and install the latest 64-bit version of Python 3.10. As of now, the la
 
 Use the following install options:
 
+<details>
+
 ![python install](https://github.com/noobient/MF_run_counter/blob/master/media/python01.png?raw=true)
 ![python install](https://github.com/noobient/MF_run_counter/blob/master/media/python02.png?raw=true)
 ![python install](https://github.com/noobient/MF_run_counter/blob/master/media/python03.png?raw=true)
+
+</details>
 
 If you want compression, download the latest 64-bit release of [UPX](https://github.com/upx/upx/releases/latest), then add it to PATH.
 
