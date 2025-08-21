@@ -99,3 +99,28 @@ Three different themes for the application have been created, which the user can
 
 ### Extra options
 In the Options tab you can turn on or off specific features in the application, and change the colour theme
+
+## Building
+
+Download and install the latest 64-bit version of Python 3.10. As of now, the latest release with an installer is [Python 3.10.11](https://www.python.org/downloads/release/python-31011/).
+
+Use the following install options:
+
+    ![winblock1](https://github.com/noobient/MF_run_counter/blob/master/media/python01.png?raw=true)
+    ![winblock1](https://github.com/noobient/MF_run_counter/blob/master/media/python02.png?raw=true)
+    ![winblock1](https://github.com/noobient/MF_run_counter/blob/master/media/python03.png?raw=true)
+
+If you want compression, download the latest 64-bit release of [UPX](https://github.com/upx/upx/releases/latest), then add it to PATH.
+
+Install the required Python packages:
+
+```
+pip install --upgrade --force-reinstall -r requirements.txt
+```
+
+Then you can build the app:
+
+```
+cd build_exe
+./onefile_exe.bat
+```
