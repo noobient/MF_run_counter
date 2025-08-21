@@ -100,6 +100,174 @@ Three different themes for the application have been created, which the user can
 ### Extra options
 In the Options tab you can turn on or off specific features in the application, and change the colour theme
 
+
+### Sundering charms
+
+If you try to use an existing `grail.json`, you need to edit the file first for sundering charms to work.
+
+Close the application, then open `grail.json`, and find the following block:
+
+```json
+  {
+    "Item": "Hellfire Torch",
+    "Base Item": "Large Charm",
+    "Item Group 0": "Unique Other",
+    "Item Group 1": "Charms",
+    "Item Group 2": "All",
+    "Item Class": "Charm",
+    "Quality": "",
+    "Rarity": "Unique",
+    "Class restriction": "",
+    "TC": "1",
+    "QLVL": "110",
+    "Roll rarity": "",
+    "Roll chance": "",
+    "Drop Andariel": "FALSE",
+    "Drop Duriel": "FALSE",
+    "Drop Mephisto": "FALSE",
+    "Drop Diablo": "FALSE",
+    "Drop Pindleskin": "FALSE",
+    "Found": false
+  },
+```
+
+After this, insert the following:
+
+```json
+  {
+    "Item": "Black Cleft",
+    "Base Item": "Grand Charm",
+    "Item Group 0": "Unique Other",
+    "Item Group 1": "Charms",
+    "Item Group 2": "All",
+    "Item Class": "Charm",
+    "Quality": "",
+    "Rarity": "Unique",
+    "Class restriction": "",
+    "TC": "1",
+    "QLVL": "70",
+    "Roll rarity": "",
+    "Roll chance": "",
+    "Drop Andariel": "TRUE",
+    "Drop Duriel": "TRUE",
+    "Drop Mephisto": "TRUE",
+    "Drop Diablo": "TRUE",
+    "Drop Pindleskin": "TRUE",
+    "Found": false
+  },
+  {
+    "Item": "Bone Break",
+    "Base Item": "Grand Charm",
+    "Item Group 0": "Unique Other",
+    "Item Group 1": "Charms",
+    "Item Group 2": "All",
+    "Item Class": "Charm",
+    "Quality": "",
+    "Rarity": "Unique",
+    "Class restriction": "",
+    "TC": "1",
+    "QLVL": "70",
+    "Roll rarity": "",
+    "Roll chance": "",
+    "Drop Andariel": "TRUE",
+    "Drop Duriel": "TRUE",
+    "Drop Mephisto": "TRUE",
+    "Drop Diablo": "TRUE",
+    "Drop Pindleskin": "TRUE",
+    "Found": false
+  },
+  {
+    "Item": "Cold Rupture",
+    "Base Item": "Grand Charm",
+    "Item Group 0": "Unique Other",
+    "Item Group 1": "Charms",
+    "Item Group 2": "All",
+    "Item Class": "Charm",
+    "Quality": "",
+    "Rarity": "Unique",
+    "Class restriction": "",
+    "TC": "1",
+    "QLVL": "70",
+    "Roll rarity": "",
+    "Roll chance": "",
+    "Drop Andariel": "TRUE",
+    "Drop Duriel": "TRUE",
+    "Drop Mephisto": "TRUE",
+    "Drop Diablo": "TRUE",
+    "Drop Pindleskin": "TRUE",
+    "Found": false
+  },
+  {
+    "Item": "Crack of the Heavens",
+    "Base Item": "Grand Charm",
+    "Item Group 0": "Unique Other",
+    "Item Group 1": "Charms",
+    "Item Group 2": "All",
+    "Item Class": "Charm",
+    "Quality": "",
+    "Rarity": "Unique",
+    "Class restriction": "",
+    "TC": "1",
+    "QLVL": "70",
+    "Roll rarity": "",
+    "Roll chance": "",
+    "Drop Andariel": "TRUE",
+    "Drop Duriel": "TRUE",
+    "Drop Mephisto": "TRUE",
+    "Drop Diablo": "TRUE",
+    "Drop Pindleskin": "TRUE",
+    "Found": false
+  },
+  {
+    "Item": "Flame Rift",
+    "Base Item": "Grand Charm",
+    "Item Group 0": "Unique Other",
+    "Item Group 1": "Charms",
+    "Item Group 2": "All",
+    "Item Class": "Charm",
+    "Quality": "",
+    "Rarity": "Unique",
+    "Class restriction": "",
+    "TC": "1",
+    "QLVL": "70",
+    "Roll rarity": "",
+    "Roll chance": "",
+    "Drop Andariel": "TRUE",
+    "Drop Duriel": "TRUE",
+    "Drop Mephisto": "TRUE",
+    "Drop Diablo": "TRUE",
+    "Drop Pindleskin": "TRUE",
+    "Found": false
+  },
+  {
+    "Item": "Rotting Fissure",
+    "Base Item": "Grand Charm",
+    "Item Group 0": "Unique Other",
+    "Item Group 1": "Charms",
+    "Item Group 2": "All",
+    "Item Class": "Charm",
+    "Quality": "",
+    "Rarity": "Unique",
+    "Class restriction": "",
+    "TC": "1",
+    "QLVL": "70",
+    "Roll rarity": "",
+    "Roll chance": "",
+    "Drop Andariel": "TRUE",
+    "Drop Duriel": "TRUE",
+    "Drop Mephisto": "TRUE",
+    "Drop Diablo": "TRUE",
+    "Drop Pindleskin": "TRUE",
+    "Found": false
+  },
+```
+
+Save your `grail.json`, and start the app again. The charms should appear in the Grail controller:
+
+![sundering charms](https://github.com/noobient/MF_run_counter/blob/master/media/sundering.png?raw=true)
+
+You have to do this only once, and it should work from then.
+
 ## Building
 
 Download and install the latest 64-bit version of Python 3.10. As of now, the latest release with an installer is [Python 3.10.11](https://www.python.org/downloads/release/python-31011/).
