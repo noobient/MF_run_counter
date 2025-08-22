@@ -34,8 +34,7 @@ requests == 2.32.5
 scipy >= 1.4.1
 
 # MF_run_counter\build_exe
-# 5.8 fails yet
-pyinstaller == 5.7.0
+pyinstaller == 6.15.0
 
 # needed for newer package versions
 jaraco.text == 4.0.0
