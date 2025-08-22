@@ -1,6 +1,8 @@
 from init import *
 from utils import tk_dynamic as tkd
 import tkinter as tk
+import sys
+import platform
 
 
 class About(tkd.Frame):
@@ -27,5 +29,5 @@ class About(tkd.Frame):
 
         v_fr = tkd.Frame(btm_fr)
         v_fr.pack(side=tk.BOTTOM, fill=tk.X, expand=True, anchor=tk.S)
-        tkd.Label(v_fr, text="v.%s" % version, justify=tk.RIGHT).pack(side=tk.RIGHT, anchor=tk.E)
-        tkd.Label(v_fr, text='Downloads: %s' % main_fr.dl_count, justify=tk.LEFT).pack(side=tk.LEFT, anchor=tk.W)
+        tkd.Label(v_fr, text="v%s using Python %d.%d.%d (%s)" % (version, sys.version_info[0], sys.version_info[1], sys.version_info[2], platform.architecture()[0]), justify=tk.LEFT).pack(anchor=tk.W)
+        #tkd.Label(v_fr, text='Downloads: %s' % main_fr.dl_count, justify=tk.LEFT).pack(side=tk.LEFT, anchor=tk.W)

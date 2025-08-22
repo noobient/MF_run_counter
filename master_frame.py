@@ -55,7 +55,7 @@ class MasterFrame(config.Config):
         self.process_queue()
 
         # Check for version update
-        self.dl_count = github_releases.check_newest_version(release_repo) if self.check_for_new_version else ''
+        #self.dl_count = github_releases.check_newest_version(release_repo) if self.check_for_new_version else ''
 
         # Load profile info
         self.make_profile_folder()
