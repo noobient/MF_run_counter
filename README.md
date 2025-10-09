@@ -278,9 +278,7 @@ You have to do this only once, and it should work afterwards.
 
 ## Building
 
-Download and install the latest 64-bit version of Python 3.10. As of now, the latest release with an installer is [Python 3.10.11](https://www.python.org/downloads/release/python-31011/).
-
-Use the following install options:
+Download and install the latest 64-bit version of [Python](https://www.python.org/). Use the following install options:
 
 <details>
 
